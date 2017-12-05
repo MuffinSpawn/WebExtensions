@@ -1,0 +1,19 @@
+{
+
+  "description": "Forces the user of a Synectics timesheet to fill out each billable hours field (Monday through Friday) and their accompanying explainations.",
+  "manifest_version": 2,
+  "name": "Synectics Timesheet Helper",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.synectics.com/timesheets/timesheets.nsf/*"],
+      "js": ["verify.js"]
+    }
+  ]
+
+}
