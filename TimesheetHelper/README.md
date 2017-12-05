@@ -4,4 +4,4 @@
 
 ## What it does
 
-This extension finds prompts for each weekday billable hours field, defaulting to 8 if parsing of the input fails. It also prompts for the explaination for each each workday's efforts. Some color changes serve as basic progress indicators.
+This extension fills in the hard-coded supervisor name and prompts for each weekday billable hours field, defaulting to 8 if parsing of the input fails. It also prompts for the explaination for each each workday's efforts. Some color changes serve as basic progress indicators. The extension is a single pass operation, so the timesheet can be edited freely after the intial prompts.
