@@ -12,7 +12,7 @@ allInputs[button_index].style.backgroundColor = 'Silver';
 allInputs[button_index].style.color = 'LightGray';
 allInputs[button_index].disabled = true;
 
-document.forms["_TimeSheet"]["mgr_name"].value = 'Jerzy Nogiec';
+document.forms["_TimeSheet"]["mgr_name"].value = 'Mrs Awesome Supervisor';
 
 var hrs_inputs = ["BillHrs01", "BillHrs02", "BillHrs03", "BillHrs04", "BillHrs05"];
 var exp_inputs = ["Explain01", "Explain02", "Explain03", "Explain04", "Explain05"];
